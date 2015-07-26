@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+import ImageIO
 
 class thumbNailTests: XCTestCase {
     
@@ -29,7 +30,11 @@ class thumbNailTests: XCTestCase {
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock() {
-            // Put the code you want to measure the time of here.
+            let vc = ViewController()
+            let path = NSBundle.mainBundle().pathForResource("test", ofType: "png")
+            if let imageSource = CGImageSourceCreateWithURL(NSURL(fileURLWithPath: path!), nil) {
+                vc.createThumbnail(imageSource, thumbWidth: 400, thumbHeight: 200)
+            }
         }
     }
     
