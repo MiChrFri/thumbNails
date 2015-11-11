@@ -9,9 +9,7 @@
 /* Begin PBXBuildFile section */
 		4C610B811B6292A200305256 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C610B801B6292A200305256 /* AppDelegate.swift */; };
 		4C610B831B6292A200305256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C610B821B6292A200305256 /* ViewController.swift */; };
-		4C610B861B6292A200305256 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C610B841B6292A200305256 /* Main.storyboard */; };
 		4C610B881B6292A200305256 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C610B871B6292A200305256 /* Images.xcassets */; };
-		4C610B8B1B6292A200305256 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C610B891B6292A200305256 /* LaunchScreen.xib */; };
 		4C610B971B6292A200305256 /* thumbNailTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C610B961B6292A200305256 /* thumbNailTests.swift */; };
 		4C610BA11B6292FF00305256 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C610BA01B6292FF00305256 /* test.png */; };
 		4C610BA21B6292FF00305256 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C610BA01B6292FF00305256 /* test.png */; };
@@ -33,9 +31,7 @@
 		4C610B7F1B6292A200305256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C610B801B6292A200305256 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C610B821B6292A200305256 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C610B851B6292A200305256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C610B871B6292A200305256 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4C610B8A1B6292A200305256 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4C610B901B6292A200305256 /* thumbNailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = thumbNailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C610B951B6292A200305256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C610B961B6292A200305256 /* thumbNailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thumbNailTests.swift; sourceTree = "<group>"; };
@@ -83,9 +79,7 @@
 			children = (
 				4C610B801B6292A200305256 /* AppDelegate.swift */,
 				4C610B821B6292A200305256 /* ViewController.swift */,
-				4C610B841B6292A200305256 /* Main.storyboard */,
 				4C610B871B6292A200305256 /* Images.xcassets */,
-				4C610B891B6292A200305256 /* LaunchScreen.xib */,
 				4C610B7E1B6292A200305256 /* Supporting Files */,
 			);
 			path = thumbNail;
@@ -161,6 +155,8 @@
 		4C610B731B6292A200305256 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = "Connected-Health";
 				TargetAttributes = {
@@ -197,8 +193,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C610B861B6292A200305256 /* Main.storyboard in Resources */,
-				4C610B8B1B6292A200305256 /* LaunchScreen.xib in Resources */,
 				4C610B881B6292A200305256 /* Images.xcassets in Resources */,
 				4C610BA11B6292FF00305256 /* test.png in Resources */,
 			);
@@ -242,25 +236,6 @@
 			targetProxy = 4C610B911B6292A200305256 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		4C610B841B6292A200305256 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C610B851B6292A200305256 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4C610B891B6292A200305256 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C610B8A1B6292A200305256 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		4C610B981B6292A200305256 /* Debug */ = {
@@ -417,6 +392,7 @@
 				4C610B9C1B6292A200305256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4C610B9D1B6292A200305256 /* Build configuration list for PBXNativeTarget "thumbNailTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +401,7 @@
 				4C610B9F1B6292A200305256 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
