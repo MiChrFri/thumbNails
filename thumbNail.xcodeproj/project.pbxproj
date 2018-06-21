@@ -14,6 +14,7 @@
 		4C610BA11B6292FF00305256 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C610BA01B6292FF00305256 /* test.png */; };
 		4C610BA21B6292FF00305256 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C610BA01B6292FF00305256 /* test.png */; };
 		4C610BA31B62AC5900305256 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C610B821B6292A200305256 /* ViewController.swift */; };
+		7939A78C20D51BCF000E865F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939A78B20D51BCF000E865F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		4C610B951B6292A200305256 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C610B961B6292A200305256 /* thumbNailTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thumbNailTests.swift; sourceTree = "<group>"; };
 		4C610BA01B6292FF00305256 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
+		7939A78B20D51BCF000E865F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				4C610B821B6292A200305256 /* ViewController.swift */,
 				4C610B871B6292A200305256 /* Images.xcassets */,
 				4C610B7E1B6292A200305256 /* Supporting Files */,
+				7939A78B20D51BCF000E865F /* Constants.swift */,
 			);
 			path = thumbNail;
 			sourceTree = "<group>";
@@ -162,6 +165,7 @@
 				TargetAttributes = {
 					4C610B7A1B6292A200305256 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 9R94XJAZ89;
 					};
 					4C610B8F1B6292A200305256 = {
 						CreatedOnToolsVersion = 6.4;
@@ -215,6 +219,7 @@
 			files = (
 				4C610B831B6292A200305256 /* ViewController.swift in Sources */,
 				4C610B811B6292A200305256 /* AppDelegate.swift in Sources */,
+				7939A78C20D51BCF000E865F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +284,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -315,6 +321,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_VERSION = 4.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -323,9 +330,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9R94XJAZ89;
 				INFOPLIST_FILE = thumbNail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -333,9 +343,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9R94XJAZ89;
 				INFOPLIST_FILE = thumbNail/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
